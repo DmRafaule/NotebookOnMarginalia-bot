@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram bot notes manager
+After=syslog.target
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/NotebookOnMarginalia-bot
+ExecStart=/home/NotebookOnMarginalia-bot/start.sh
+RestartSec=60
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
