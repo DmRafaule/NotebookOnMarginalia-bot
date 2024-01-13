@@ -1,0 +1,343 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-12 13:59+0300\n"
+"PO-Revision-Date: 2024-01-10 09:01+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: callbacks.py:218 callbacks.py:236 callbacks.py:254
+msgid "БЕЗ НАЗВАНИЯ\n"
+msgstr ""
+
+#: callbacks.py:221 callbacks.py:239
+msgid "БЕЗ КАТЕГОРИИ\n"
+msgstr ""
+
+#: callbacks.py:224 callbacks.py:242
+msgid "БЕЗ ПОДКАТЕГОРИИ\n"
+msgstr ""
+
+#: main.py:88
+msgid "Заметки: {note_preview}"
+msgstr ""
+
+#: main.py:89
+msgid "Порядок: {current_order_option}"
+msgstr ""
+
+#: main.py:90
+msgid "Количество: По {note_num} за раз"
+msgstr ""
+
+#: main.py:91 main.py:104 middleware.py:101 middleware.py:206
+msgid "« Назад"
+msgstr ""
+
+#: main.py:121
+msgid "Добавить новую"
+msgstr ""
+
+#: main.py:122
+msgid "Поиск заметок"
+msgstr ""
+
+#: main.py:131
+msgid "Web версия"
+msgstr ""
+
+#: main.py:132
+msgid "CLI версия"
+msgstr ""
+
+#: main.py:133
+msgid ""
+"\n"
+"    <b>NotepadOnMarginalia</b>\n"
+"    от <i>Тимы зе Вебмастера</i>\n"
+"\n"
+"    Заметки в телеграм.\n"
+"    "
+msgstr ""
+
+#: main.py:145
+msgid "Спасибо что выбрал(а) меня."
+msgstr ""
+
+#: main.py:154
+msgid ""
+"Доступные команды для ввода:\n"
+"    /start - запускает бота.\n"
+"    /help - отправляет данную справку.\n"
+"    /add - добавить новую заметку\n"
+"    /search - ищет заметки\n"
+"    /search_other - другие поисковые возможности\n"
+"    /settings - настройки работы бота\n"
+"    "
+msgstr ""
+
+#: main.py:175 main.py:191
+msgid "Выбран режим: {rem}"
+msgstr ""
+
+#: main.py:237 main.py:259
+msgid "Назад"
+msgstr ""
+
+#: main.py:249 main.py:267
+msgid "Дальше"
+msgstr ""
+
+#: main.py:280
+msgid "Нашёл одну запись."
+msgstr ""
+
+#: main.py:282
+msgid "Нашёл {length} записи. (от {one} до {up_limit})"
+msgstr ""
+
+#: main.py:284
+msgid "Нашёл {length} записей. (от {one} до {up_limit})"
+msgstr ""
+
+#: main.py:286
+msgid "Ничего не нашёл."
+msgstr ""
+
+#: main.py:339
+msgid "Другие поисковые функции"
+msgstr ""
+
+#: main.py:410
+msgid "Заметка удалена."
+msgstr ""
+
+#: main.py:412
+msgid "Не смог удалить заметку."
+msgstr ""
+
+#: main.py:426
+msgid "(Под)категория удалена."
+msgstr ""
+
+#: main.py:428
+msgid "(Под)категория не удалена."
+msgstr ""
+
+#: main.py:445
+msgid "{msg}"
+msgstr ""
+
+#: main.py:446
+msgid "Выбери поле, которое будешь редактировать."
+msgstr ""
+
+#: main.py:460 main.py:492
+msgid "Теперь введи новое значение"
+msgstr ""
+
+#: main.py:480
+msgid "Заметка изменена."
+msgstr ""
+
+#: main.py:508
+msgid "(Под)категория изменена."
+msgstr ""
+
+#: main.py:520
+msgid "Настройки поиска"
+msgstr ""
+
+#: main.py:537
+msgid "Увеличил количество отображаемых заметок за раз."
+msgstr ""
+
+#: main.py:562
+msgid "Изменил порядок вывода заметок"
+msgstr ""
+
+#: main.py:598
+msgid "Отображение заметок измененно."
+msgstr ""
+
+#: main.py:614 main.py:632 main.py:653 main.py:676 main.py:698 main.py:748
+#: main.py:778 main.py:789 main.py:803
+msgid "Отменить добавление"
+msgstr ""
+
+#: main.py:616 main.py:782
+msgid "Введи текст заметки"
+msgstr ""
+
+#: main.py:633 main.py:654 main.py:677 main.py:790 main.py:804
+msgid "Предыдущий шаг"
+msgstr ""
+
+#: main.py:634 main.py:655 main.py:678 main.py:791 main.py:805
+msgid "Пропустить"
+msgstr ""
+
+#: main.py:635 main.py:656 main.py:679 main.py:700 main.py:750 main.py:792
+#: main.py:806
+msgid "Сохранить как есть"
+msgstr ""
+
+#: main.py:638 main.py:796
+msgid "Введи заголовок"
+msgstr ""
+
+#: main.py:660 main.py:741 main.py:810
+msgid "Введи название категории"
+msgstr ""
+
+#: main.py:683 main.py:745
+msgid "Введи название подкатегории"
+msgstr ""
+
+#: main.py:699 main.py:749
+msgid "Показать результат"
+msgstr ""
+
+#: main.py:703 main.py:755
+msgid "Создание заметки закончено. Не забудь сохранить её."
+msgstr ""
+
+#: main.py:716
+msgid "{view}"
+msgstr ""
+
+#: main.py:727 main.py:771
+msgid "Создание новой заметки отменено."
+msgstr ""
+
+#: main.py:740 main.py:744 main.py:753
+msgid "Шаг пропущен."
+msgstr ""
+
+#: main.py:819
+msgid "Вернулся в главное меню"
+msgstr ""
+
+#: main.py:830 main.py:841
+msgid "Вернулся в меню поиска заметок"
+msgstr ""
+
+#: main.py:845
+msgid "Возвращение на шаг назад."
+msgstr ""
+
+#: main.py:864
+msgid "Заметка сохранена"
+msgstr ""
+
+#: middleware.py:18 middleware.py:123
+msgid "Искать везде"
+msgstr ""
+
+#: middleware.py:24 middleware.py:129
+msgid "Искать по заголовку"
+msgstr ""
+
+#: middleware.py:30 middleware.py:135
+msgid "Искать по содержимому"
+msgstr ""
+
+#: middleware.py:36 middleware.py:141
+msgid "Искать по категориям"
+msgstr ""
+
+#: middleware.py:42 middleware.py:147
+msgid "Искать по подкатегориям"
+msgstr ""
+
+#: middleware.py:48 middleware.py:153
+msgid "Искать по времени до 'YYYY-MM-DD'"
+msgstr ""
+
+#: middleware.py:54 middleware.py:159
+msgid "Искать по времени после 'YYYY-MM-DD'"
+msgstr ""
+
+#: middleware.py:60 middleware.py:165
+msgid "Найти подкатегории, категории"
+msgstr ""
+
+#: middleware.py:69 middleware.py:174
+msgid "С самых ранних"
+msgstr ""
+
+#: middleware.py:70 middleware.py:175
+msgid "С самых поздних"
+msgstr ""
+
+#: middleware.py:74 middleware.py:179
+msgid "Необходимая информации"
+msgstr ""
+
+#: middleware.py:75 middleware.py:180
+msgid "Вся информация"
+msgstr ""
+
+#: middleware.py:76 middleware.py:181
+msgid "Минимум информации"
+msgstr ""
+
+#: middleware.py:77 middleware.py:182
+msgid "Только существующая"
+msgstr ""
+
+#: middleware.py:81 middleware.py:186
+msgid "Заметки за всё время"
+msgstr ""
+
+#: middleware.py:87 middleware.py:192
+msgid "Заметки за сегодня"
+msgstr ""
+
+#: middleware.py:93 middleware.py:198
+msgid "Все существующие категории"
+msgstr ""
+
+#: middleware.py:102 middleware.py:207
+msgid "Настройки"
+msgstr ""
+
+#: middleware.py:103 middleware.py:208
+msgid "Другое"
+msgstr ""
+
+#: middleware.py:107 middleware.py:212
+msgid "Изменить заголовок"
+msgstr ""
+
+#: middleware.py:108 middleware.py:213
+msgid "Изменить категорию"
+msgstr ""
+
+#: middleware.py:109 middleware.py:214
+msgid "Изменить подкатегорию"
+msgstr ""
+
+#: middleware.py:110 middleware.py:215
+msgid "Изменить содержимое"
+msgstr ""
+
+#~ msgid "Выбран режим: {rem})"
+#~ msgstr ""
+
+#~ msgid "Заметки: "
+#~ msgstr ""
+

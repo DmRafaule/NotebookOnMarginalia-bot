@@ -1,0 +1,5 @@
+.env
+.venv
+__python__
+TODO.md
+data.json

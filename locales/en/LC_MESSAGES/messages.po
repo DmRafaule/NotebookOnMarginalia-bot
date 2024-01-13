@@ -1,0 +1,350 @@
+# English translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-01-12 13:59+0300\n"
+"PO-Revision-Date: 2024-01-10 06:56+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: callbacks.py:218 callbacks.py:236 callbacks.py:254
+msgid "БЕЗ НАЗВАНИЯ\n"
+msgstr "NO TITLE\n"
+
+#: callbacks.py:221 callbacks.py:239
+msgid "БЕЗ КАТЕГОРИИ\n"
+msgstr "NO CATEGORY\n"
+
+#: callbacks.py:224 callbacks.py:242
+msgid "БЕЗ ПОДКАТЕГОРИИ\n"
+msgstr "NO SUBCATEGORY\n"
+
+#: main.py:88
+msgid "Заметки: {note_preview}"
+msgstr "Notes: {note_preview}"
+
+#: main.py:89
+msgid "Порядок: {current_order_option}"
+msgstr "Order: {current_order_option}"
+
+#: main.py:90
+msgid "Количество: По {note_num} за раз"
+msgstr "Number: From {note_num} per page"
+
+#: main.py:91 main.py:104 middleware.py:101 middleware.py:206
+msgid "« Назад"
+msgstr "« Back"
+
+#: main.py:121
+msgid "Добавить новую"
+msgstr "New note"
+
+#: main.py:122
+msgid "Поиск заметок"
+msgstr "Search"
+
+#: main.py:131
+msgid "Web версия"
+msgstr "Web version"
+
+#: main.py:132
+msgid "CLI версия"
+msgstr "CLI version"
+
+#: main.py:133
+msgid ""
+"\n"
+"    <b>NotepadOnMarginalia</b>\n"
+"    от <i>Тимы зе Вебмастера</i>\n"
+"\n"
+"    Заметки в телеграм.\n"
+"    "
+msgstr ""
+"\n"
+"    <b>NotepadOnMarginalia</b>\n"
+"    by <i>Tim the Webmaster</i>\n"
+"\n"
+"    Notes in telegram.\n"
+"    "
+
+#: main.py:145
+msgid "Спасибо что выбрал(а) меня."
+msgstr "Thanks for using my bot."
+
+#: main.py:154
+msgid ""
+"Доступные команды для ввода:\n"
+"    /start - запускает бота.\n"
+"    /help - отправляет данную справку.\n"
+"    /add - добавить новую заметку\n"
+"    /search - ищет заметки\n"
+"    /search_other - другие поисковые возможности\n"
+"    /settings - настройки работы бота\n"
+"    "
+msgstr ""
+"Available commands:\n"
+"    /start - start a bot.\n"
+"    /help - this help command.\n"
+"    /add - create a new one note\n"
+"    /search - search and display notes\n"
+"    /search_other - other search options\n"
+"    /settings - settings of this bot\n"
+"    "
+
+#: main.py:175 main.py:191
+msgid "Выбран режим: {rem}"
+msgstr "Mode: {rem}"
+
+#: main.py:237 main.py:259
+msgid "Назад"
+msgstr "Back"
+
+#: main.py:249 main.py:267
+msgid "Дальше"
+msgstr "Next"
+
+#: main.py:280
+msgid "Нашёл одну запись."
+msgstr "Found only one record"
+
+#: main.py:282
+msgid "Нашёл {length} записи. (от {one} до {up_limit})"
+msgstr "Found {length} records. (from {one} to {up_limit})"
+
+#: main.py:284
+msgid "Нашёл {length} записей. (от {one} до {up_limit})"
+msgstr "Found {length} records. (from {one} to {up_limit})"
+
+#: main.py:286
+msgid "Ничего не нашёл."
+msgstr "Nothing"
+
+#: main.py:339
+msgid "Другие поисковые функции"
+msgstr "Other search options"
+
+#: main.py:410
+msgid "Заметка удалена."
+msgstr "Removed"
+
+#: main.py:412
+msgid "Не смог удалить заметку."
+msgstr "Can't remove a note"
+
+#: main.py:426
+msgid "(Под)категория удалена."
+msgstr "(Sub)category removed"
+
+#: main.py:428
+msgid "(Под)категория не удалена."
+msgstr "(Sub)category can't be removed"
+
+#: main.py:445
+msgid "{msg}"
+msgstr "{msg}"
+
+#: main.py:446
+msgid "Выбери поле, которое будешь редактировать."
+msgstr "Choose a field, which you want to edit."
+
+#: main.py:460 main.py:492
+msgid "Теперь введи новое значение"
+msgstr "Now enter new value"
+
+#: main.py:480
+msgid "Заметка изменена."
+msgstr "Note changed"
+
+#: main.py:508
+msgid "(Под)категория изменена."
+msgstr "(Sub)category changed"
+
+#: main.py:520
+msgid "Настройки поиска"
+msgstr "Settings"
+
+#: main.py:537
+msgid "Увеличил количество отображаемых заметок за раз."
+msgstr "Increase the number of displays of notes per time."
+
+#: main.py:562
+msgid "Изменил порядок вывода заметок"
+msgstr "Change the order of displaying notes"
+
+#: main.py:598
+msgid "Отображение заметок измененно."
+msgstr "The display mode for notes has changed"
+
+#: main.py:614 main.py:632 main.py:653 main.py:676 main.py:698 main.py:748
+#: main.py:778 main.py:789 main.py:803
+msgid "Отменить добавление"
+msgstr "Cancel adding"
+
+#: main.py:616 main.py:782
+msgid "Введи текст заметки"
+msgstr "Enter text of the note"
+
+#: main.py:633 main.py:654 main.py:677 main.py:790 main.py:804
+msgid "Предыдущий шаг"
+msgstr "Previouse step"
+
+#: main.py:634 main.py:655 main.py:678 main.py:791 main.py:805
+msgid "Пропустить"
+msgstr "Skip"
+
+#: main.py:635 main.py:656 main.py:679 main.py:700 main.py:750 main.py:792
+#: main.py:806
+msgid "Сохранить как есть"
+msgstr "Save as it is"
+
+#: main.py:638 main.py:796
+msgid "Введи заголовок"
+msgstr "Enter a title"
+
+#: main.py:660 main.py:741 main.py:810
+msgid "Введи название категории"
+msgstr "Enter a category"
+
+#: main.py:683 main.py:745
+msgid "Введи название подкатегории"
+msgstr "Enter a subcategory"
+
+#: main.py:699 main.py:749
+msgid "Показать результат"
+msgstr "Show results"
+
+#: main.py:703 main.py:755
+msgid "Создание заметки закончено. Не забудь сохранить её."
+msgstr "A note has been created. Do not forget to save it."
+
+#: main.py:716
+msgid "{view}"
+msgstr "{view}"
+
+#: main.py:727 main.py:771
+msgid "Создание новой заметки отменено."
+msgstr "The creationg of new note cancled"
+
+#: main.py:740 main.py:744 main.py:753
+msgid "Шаг пропущен."
+msgstr "Skipped"
+
+#: main.py:819
+msgid "Вернулся в главное меню"
+msgstr "Back to main menu"
+
+#: main.py:830 main.py:841
+msgid "Вернулся в меню поиска заметок"
+msgstr "Back to search menu"
+
+#: main.py:845
+msgid "Возвращение на шаг назад."
+msgstr "Back"
+
+#: main.py:864
+msgid "Заметка сохранена"
+msgstr "Saved"
+
+#: middleware.py:18 middleware.py:123
+msgid "Искать везде"
+msgstr "Search everywhere"
+
+#: middleware.py:24 middleware.py:129
+msgid "Искать по заголовку"
+msgstr "Search by title"
+
+#: middleware.py:30 middleware.py:135
+msgid "Искать по содержимому"
+msgstr "Search by text"
+
+#: middleware.py:36 middleware.py:141
+msgid "Искать по категориям"
+msgstr "Search by category"
+
+#: middleware.py:42 middleware.py:147
+msgid "Искать по подкатегориям"
+msgstr "Search by subcategory"
+
+#: middleware.py:48 middleware.py:153
+msgid "Искать по времени до 'YYYY-MM-DD'"
+msgstr "Search before 'YYYY-MM-DD'"
+
+#: middleware.py:54 middleware.py:159
+msgid "Искать по времени после 'YYYY-MM-DD'"
+msgstr "Search after 'YYYY-MM-DD'"
+
+#: middleware.py:60 middleware.py:165
+msgid "Найти подкатегории, категории"
+msgstr "Find subcategories of category"
+
+#: middleware.py:69 middleware.py:174
+msgid "С самых ранних"
+msgstr "Earliest first"
+
+#: middleware.py:70 middleware.py:175
+msgid "С самых поздних"
+msgstr "Latest first"
+
+#: middleware.py:74 middleware.py:179
+msgid "Необходимая информации"
+msgstr "Only neccessary info"
+
+#: middleware.py:75 middleware.py:180
+msgid "Вся информация"
+msgstr "All info"
+
+#: middleware.py:76 middleware.py:181
+msgid "Минимум информации"
+msgstr "Minimum info"
+
+#: middleware.py:77 middleware.py:182
+msgid "Только существующая"
+msgstr "Only existed fields"
+
+#: middleware.py:81 middleware.py:186
+msgid "Заметки за всё время"
+msgstr "All time"
+
+#: middleware.py:87 middleware.py:192
+msgid "Заметки за сегодня"
+msgstr "For today"
+
+#: middleware.py:93 middleware.py:198
+msgid "Все существующие категории"
+msgstr "All existing categories"
+
+#: middleware.py:102 middleware.py:207
+msgid "Настройки"
+msgstr "Settings"
+
+#: middleware.py:103 middleware.py:208
+msgid "Другое"
+msgstr "Other"
+
+#: middleware.py:107 middleware.py:212
+msgid "Изменить заголовок"
+msgstr "Change title"
+
+#: middleware.py:108 middleware.py:213
+msgid "Изменить категорию"
+msgstr "Change category"
+
+#: middleware.py:109 middleware.py:214
+msgid "Изменить подкатегорию"
+msgstr "Change subcategory"
+
+#: middleware.py:110 middleware.py:215
+msgid "Изменить содержимое"
+msgstr "Change text"
+
