@@ -1,5 +1,5 @@
 .env
 .venv
-__python__
+__pycache__
 TODO.md
 data.json
